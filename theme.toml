@@ -8,7 +8,7 @@ homepage = "https://gethugothemes.com/products/vex-hugo-theme/"
 demosite = "https://demo.gethugothemes.com/vex/"
 tags = ["onepage", "bootstrap", "ecommerce", "single product", "product", "themefisher","gethugothemes"]
 features = ["onepage", "product"]
-min_version = "0.62.2"
+min_version = "0.147.2"
 
 [author]
   name = "Themefisher"
