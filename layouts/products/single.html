@@ -33,11 +33,11 @@
           {{ if .Params.sizes }}
           data-item-custom2-name="Choose Size"
           data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
-          {{end}}>{{i18n "add_to_cart"}}
+          {{end}}>{{i18n "buy_now"}}
         </button>
         {{ else }}
         {{ with .Params.button_link}}
-        <a class="btn btn-main mb-5" href="{{ . | absURL }}">{{i18n "add_to_cart"}}</a>
+        <a class="btn btn-main mb-5" href="{{ . | absURL }}">{{i18n "buy_now"}}</a>
         {{ end }}
         {{ end }}
 
